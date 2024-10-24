@@ -1,0 +1,128 @@
+/* General app styling */
+.App {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #054a31, #e9ecef);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login page styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-button {
+  background: linear-gradient(135deg, #20c997, #198754); /* Teal green */
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 2.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #17a589, #146c43);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Connected component styling */
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.connected-header, .connected-account, .connected-contract-address {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333; /* Black font */
+  margin-bottom: 1.5rem;
+}
+
+.connected-button {
+  background: linear-gradient(135deg, #20c997, #198754);
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 2.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.connected-button:hover {
+  background: linear-gradient(135deg, #17a589, #146c43);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Table styling for candidates */
+.candidates-table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.candidates-table th {
+  background-color: #20c997; /* Teal green header */
+  color: #fff;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.candidates-table td {
+  background-color: #f9f9f9;
+  padding: 12px;
+  text-align: center;
+  color: #444; /* Subtle black font */
+}
+
+.candidates-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Input number box */
+input[type=number] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+input[type=number]:focus {
+  box-shadow: 0 0 8px rgba(32, 201, 151, 0.3); /* Teal green focus */
+}
+
+/* Finished component styling */
+.finished-container {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333; /* Black font */
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
